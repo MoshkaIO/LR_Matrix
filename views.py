@@ -11,8 +11,7 @@ def Menu():
 
         MenuMessage(Controllers.Matrix)
         command = Input()
-        if MenuCommandController(command):  # рудимент
-            Exit()
+        MenuCommandController(command)
 
 
 def MenuCommandController(input):
